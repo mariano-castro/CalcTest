@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1fc9238-8768-4be5-b619-f84c427b3de3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_testng_testng_6_14_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/byte-buddy-1.8.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/commons-exec-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/commons-lang3-3.9-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/commons-lang3-3.9-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/commons-lang3-3.9-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/commons-lang3-3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/guava-25.0-jre.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/java-client-7.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/okhttp-3.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/okio-1.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/selenium-server-standalone-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/CalcTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/automation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/elements/appium.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Calculator.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PageObjects/CalcTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/automation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/elements/appium.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalcTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/CalcTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/automation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/CalcTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/automation.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,44 +23,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/automation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/CalcTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="374">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#2368#2369#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/elements/appium.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CalcTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#2276#2277#0" expanded="true" />
+                <element signature="e#2301#2302#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,8 +67,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/CalcTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/elements/appium.xml" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/CalcTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CalcTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/Calculator.java" />
       </list>
     </option>
   </component>
@@ -126,7 +107,9 @@
     <option name="width" value="1208" />
     <option name="height" value="646" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -188,6 +171,19 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -228,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CalcTests">
+  <component name="RunManager" selected="TestNG.CalcTests (2)">
     <configuration name="CalcTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
@@ -239,6 +235,17 @@
       </extension>
       <option name="PACKAGE_NAME" value="PageObjects" />
       <option name="MAIN_CLASS_NAME" value="PageObjects.CalcTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcTests (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalcTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -299,25 +306,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="automation.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="automation" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CalcTests (2)" />
         <item itemvalue="TestNG.CalcTests" />
         <item itemvalue="TestNG.CalcTests (1)" />
         <item itemvalue="TestNG.CalcTests.Sum" />
         <item itemvalue="TestNG.CalcTests.test" />
-        <item itemvalue="TestNG.automation.test" />
       </list>
     </recent_temporary>
   </component>
@@ -335,12 +330,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalcTests - 2019.06.21 at 15h 31m 02s.xml">
-      <configuration name="CalcTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalcTests_Sum - 2019.06.21 at 15h 31m 53s.xml">
-      <configuration name="CalcTests.Sum" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CalcTests_(1) - 2019.06.21 at 15h 32m 04s.xml">
       <configuration name="CalcTests (1)" configurationId="TestNG" />
     </history-entry>
@@ -365,9 +354,16 @@
     <history-entry file="CalcTests - 2019.06.21 at 16h 01m 09s.xml">
       <configuration name="CalcTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CalcTests_(2) - 2019.06.21 at 17h 32m 03s.xml">
+      <configuration name="CalcTests (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalcTests_(2) - 2019.06.21 at 17h 53m 39s.xml">
+      <configuration name="CalcTests (2)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -377,7 +373,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28039217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -449,30 +445,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/elements/appium.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/CalcTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/elements/appium.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CalcTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#2276#2277#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
