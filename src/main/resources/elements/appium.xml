@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "CalcTests" configfailurepolicy="continue">
+
+    <parameter name="sum1" value="10000"/>
+    <parameter name="sum2" value="5000"/>
+    <parameter name="result" value="15000"/>
+
+
+    <test name ="CalcTests" >
+        <classes>
+            <class name = "PageObjects.CalcTests"/>
+        </classes>
+    </test>
+
+</suite>
