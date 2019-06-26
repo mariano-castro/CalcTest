@@ -15,12 +15,14 @@ public class Calculator {
         }
     }
 
+    public void setAndroidDriver(AndroidDriver<AndroidElement> androidDr){
+        ad = androidDr;
+    }
+
     public void typeOperator(String n){
         System.out.println("Type Operator");
         ad.findElement(By.id("com.android.calculator2:id/op_"+n)).click();
     }
-
-
 
     public String Sum(String num1, String num2) {
 
