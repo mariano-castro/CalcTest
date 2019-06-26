@@ -1,4 +1,6 @@
 import PageObjects.Calculator;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -7,7 +9,7 @@ import java.net.MalformedURLException;
 
 public class CalcTests extends BaseTest{
 
-    //public AndroidDriver<AndroidElement> ad;
+    public AndroidDriver<AndroidElement> ad;
     public Calculator pageObject;
 
     @DataProvider(name = "nums")
@@ -17,8 +19,9 @@ public class CalcTests extends BaseTest{
 
     @BeforeTest
     public void loadCalculator() throws MalformedURLException {
-        setup(".Calculator","com.android.calculator2");
+        ad = setup(".Calculator","com.android.calculator2");
         pageObject = new Calculator();
+        pageObject.setAndroidDriver(ad);
     }
 
     @Test(dataProvider = "nums")
