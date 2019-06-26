@@ -9,7 +9,7 @@
 
     <test name ="CalcTests" >
         <classes>
-            <class name = "PageObjects.CalcTests"/>
+            <class name = "CalcTests"/>
         </classes>
     </test>
 
